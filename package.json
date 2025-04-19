@@ -1,6 +1,6 @@
 {
   "name": "coc-gdscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GDScript LSP integration with coc.nvim",
   "author": "Joseph Dalrymple <joseph.dalrymple@bluelogicteam.com>",
   "license": "MIT",
