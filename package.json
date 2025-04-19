@@ -1,0 +1,81 @@
+{
+  "name": "coc-gdscript",
+  "version": "0.0.0-development",
+  "description": "GDScript LSP integration with coc.nvim",
+  "author": "Joseph Dalrymple <joseph.dalrymple@bluelogicteam.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "coc.nvim"
+  ],
+  "engines": {
+    "coc": ">=0.0.80"
+  },
+  "scripts": {
+    "watch": "node esbuild.mjs --watch",
+    "build": "node esbuild.mjs",
+    "prepare": "node esbuild.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "coc.nvim": "0.0.83-next.22",
+    "esbuild": "^0.25.2",
+    "typescript": "^5.8.3"
+  },
+  "activationEvents": [
+    "onLanguage:gdscript",
+    "onLanguage:gdshader",
+    "workspaceContains:project.godot",
+    "workspaceContains:.godot"
+  ],
+  "rootPatterns": [
+    {
+      "patterns": [
+        "project.godot",
+        ".godot"
+      ]
+    }
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "gdscript",
+        "aliases": [
+          "GDScript"
+        ],
+        "extensions": [
+          ".gd"
+        ]
+      },
+      {
+        "id": "gdshader",
+        "aliases": [
+          "GodotShader"
+        ],
+        "extensions": [
+          ".gdshader"
+        ]
+      }
+    ],
+    "configuration": {
+      "title": "Godot LSP Extension Configuration",
+      "properties": {
+        "godot.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable the Godot LSP extension"
+        },
+        "godot.host": {
+          "type": "string",
+          "default": "127.0.0.1",
+          "description": "Host address of the Godot LSP server"
+        },
+        "godot.port": {
+          "type": "number",
+          "default": 6005,
+          "description": "TCP port of the Godot LSP server (default 6005)"
+        }
+      }
+    }
+  }
+}

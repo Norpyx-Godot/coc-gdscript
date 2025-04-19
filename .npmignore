@@ -1,0 +1,13 @@
+src
+.gitignore
+node_modules
+tsconfig.json
+*.map
+.tags
+.DS_Store
+webpack.config.js
+esbuild.js
+*.log
+.github
+.eslintrc.js
+.prettierrc

@@ -1,0 +1,8 @@
+lib
+node_modules
+*.map
+.tags
+.DS_Store
+*.log
+.github
+.gitlab
