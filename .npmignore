@@ -6,7 +6,7 @@ tsconfig.json
 .tags
 .DS_Store
 webpack.config.js
-esbuild.js
+esbuild.mjs
 *.log
 .github
 .eslintrc.js
