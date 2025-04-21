@@ -5,6 +5,13 @@
   "author": "Joseph Dalrymple <joseph.dalrymple@bluelogicteam.com>",
   "license": "MIT",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "issues": "",
+    "url": "git+https://github.com/Norpyx-Godot/coc-gdscript"
+  },
+  "bugs": "https://github.com/Norpyx-Godot/coc-gdscript/issues",
+  "homepage": "https://github.com/Norpyx-Godot/coc-gdscript",
   "keywords": [
     "coc.nvim"
   ],
