@@ -20,7 +20,7 @@ GDScript and Godot shader files directly in your editor.
 > [!TIP]
 >
 > For **Syntax Highlighting**, use a dedicated plugin like
-> [habamax/vim-godot](https://github.om/habamax/vim-godot)
+> [habamax/vim-godot](https://github.com/habamax/vim-godot)
 >
 > ```vim
 > Plug 'habamax/vim-godot'
