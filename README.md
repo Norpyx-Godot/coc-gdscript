@@ -7,6 +7,8 @@ built-in Language Server and Vim/Neovim via
 [coc.nvim](https://github.com/neoclide/coc.nvim). Enjoy IDE‑like features for
 GDScript and Godot shader files directly in your editor.
 
+![screenshot](https://raw.githubusercontent.com/Norpyx-Godot/coc-gdscript/main/lib/example.png)
+
 ---
 
 ## 📦 Install
@@ -14,6 +16,15 @@ GDScript and Godot shader files directly in your editor.
 ```vim
 :CocInstall coc-gdscript
 ```
+
+> [!TIP]
+>
+> For **Syntax Highlighting**, use a dedicated plugin like
+> [habamax/vim-godot](https://github.om/habamax/vim-godot)
+>
+> ```vim
+> Plug 'habamax/vim-godot'
+> ```
 
 ## 🚀 Features
 
@@ -57,10 +68,6 @@ All settings live under the `godot` namespace in your `coc-settings.json`:
  the presence of a Godot project and automatically connect to the LSP.
 3. Enjoy IDE‑like features: code completion, diagnostics, hover, go‑to
  definition, and more.
-
-> **Note:** This extension only implements LSP features. For syntax
-highlighting, use a dedicated GDScript/shader Vim plugin such as
-[vim-gdscript3](https://github.com/calviken/vim-gdscript3).
 
 ---
 
