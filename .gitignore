@@ -3,5 +3,3 @@ node_modules
 .tags
 .DS_Store
 *.log
-.github
-.gitlab
